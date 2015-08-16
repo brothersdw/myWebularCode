@@ -1,0 +1,111 @@
+body {
+  background-image: url("http://www.wallpapersonview.com/wallpapers/4/abstract_colorful_textures_widescreen_desktop_background_picture-536.jpg");
+}
+
+#onHover {
+  height: 50px;
+  width: 55px;
+  float: left;
+  background-color: black;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  margin-bottom: 5%;
+  overflow: hidden;
+  cursor: pointer;
+  transition: .5s;
+}
+
+#onHover:hover {
+  width: 100%;
+}
+
+#menuExpand {
+  margin-left: 50px;
+  border-left: 1px solid white;
+}
+
+#onHover p {
+  height: 50px;
+  text-align: center;
+  font-family: Goudy Old Style;
+  font-weight: bold;
+  margin-top: 0px;
+  padding: 15px 10px 0px 10px;
+  float: left;
+  color: white;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+#onHover p:hover {
+  color: #3399FF;
+  border-left: 2px solid white;
+  border-right: 3px solid white;
+}
+
+#borderLeft {
+  border-left: 1px solid white;
+}
+
+#borderLeft:hover {
+  border-left: 2px solid white;
+  border-right: 3px solid white;
+}
+
+#ipsum {
+  width: 700px;
+  background-color: rgba(193, 66, 66, 0.5);
+  font-size: 1.3em;
+  clear: both;
+  margin: 0 auto;
+}
+
+#ipsum p {
+  color: white;
+  font-family: Brush Script MT
+}
+
+#about {
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  clear: both;
+}
+
+#pictures {
+  float: left;
+  margin: 0 auto;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  float: left;
+  opacity: .4;
+  border: 3px solid #0099FF;
+  transition: 1s;
+}
+
+img:hover {
+  height: 270px;
+  width: 270px;
+  opacity: 1;
+  transform: rotateX(360deg);
+}
+
+td, tr, img {
+  padding: 0px;
+  margin: 0px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.galleryBackground {
+  background-image: url("http://www.pptbackgrounds.net/uploads/elegant-grey-illumination-background-presentations-powerpoint-backgrounds.jpg");
+}
+
+.original {
+  background-image: url("http://www.wallpapersonview.com/wallpapers/4/abstract_colorful_textures_widescreen_desktop_background_picture-536.jpg");
+}
